@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#7c109fff"
+        android:paddingTop="30dp"
+        >
+
+        <TextView
+            android:text="@string/TituloEsquSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffd648"
+            android:gravity="center_horizontal"
+            android:textColor="#010000"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:background="#7c109fff"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView android:text="@string/EmailEsqu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#010000"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.85" />
+
+        <EditText
+            android:id="@+id/editEsquSenha"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_weight="0.02" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:background="#7c109fff"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.89">
+
+        <Button
+            android:text="@string/Enviar"
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingBottom="10dp"
+            android:background="#19ff20" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">DeliveryExpress</string>
+
+    <string name="Titulo">Login</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--layout_TelaEntregCliente-->
+    <string name="btnAceita">Aceitar</string>
+    <string name="btnRejeita">Rejeitar</string>
+
+    <!--layout_TelaEntregEntregador-->
+    <string name="FazerEntreg">Fazer Entrega</string>
+    <string name="linkMInforma">Mais Informações</string>
+
+    <!--layout_PerfilUsuario-->
+    <string name="TituloPerfilUsuario">Pedidos de Entrega</string>
+
+
+    <!--layout_EsquSenha-->
+    <string name="TituloEsquSenha">Esqueci Minha Senha</string>
+    <string name="EmailEsqu">Email</string>
+
+    <!--layout_mercadoria-->
+    <string name="TituloMerc">Cadastro de Mercadoria</string>
+    <string name="PesoMerc">Peso</string>
+    <string name="VolMerc">Volume</string>
+    <string name="PeriMerc">Periculosidade</string>
+    <string name="TipoMerc">Tipo</string>
+
+    <!--layout_veiculo-->
+    <string name="TituloVei">Cadastro de Veiculo</string>
+    <string name="NumPlacaVei">Nº Placa</string>
+    <string name="CorVei">Cor</string>
+    <string name="ModelVei">Modelo</string>
+    <string name="PesoVei">Peso</string>
+    <string name="TipoVei">Tipo</string>
+
+    <!--layout_cadastro-->
+    <string name="TituloCad">Cadastro de Usuario</string>
+    <string name="EnderecoCad">Endereco</string>
+    <string name="NomeCad">Nome</string>
+    <string name="Enviar">Enviar</string>
+    <string name="UsuarioCad">Usuario</string>
+    <string name="SenhaCad">Senha</string>
+    <string name="CNPJCad">CNPJ</string>
+    <string name="CPFCad">CPF</string>
+    <string name="EstadoCad">Estado</string>
+    <string name="CidadeCad">Cidade</string>
+    <string name="IdadeCad">Idade</string>
+    <string name="CadNovPdd">Cadastrar Novo Pedido</string>
+
+
+    <!--layout_telalogin-->
+    <string name="Entregador">Entregador</string>
+    <string name="Cliente">Cliente</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Senha">Senha</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Cadastrar">Cadastro</string>
+    <string name="esqSenha">Esqueci Minha Senha</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cadastro_veiculo">CadastroVeiculo</string>
+    <string name="title_activity_veiculo">Veiculo</string>
+    <string name="title_activity_mercadoria">Mercadoria</string>
+    <string name="title_activity_esque_senha">EsqueSenha</string>
+    <string name="title_activity_perfil_usuario">PerfilUsuario</string>
+    <string name="title_activity_tela_entreg_entregador">TelaEntregEntregador</string>
+    <string name="title_activity_tela_entreg_cliente">TelaEntregCliente</string>
+    <string name="title_activity_perfil_entregador">PerfilEntregador</string>
+    <string name="title_activity_entrega">Entrega</string>
+    <string name="title_activity_teste">Teste</string>
+</resources>

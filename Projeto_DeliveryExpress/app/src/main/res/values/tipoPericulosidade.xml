@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoPericulosidade">
+
+        <item>Muito Baixa</item>
+        <item>Baixa</item>
+        <item>Média</item>
+        <item>Média Alta</item>
+        <item>Alta</item>
+        <item>Muito Alta</item>
+
+    </string-array>
+
+
+</resources>

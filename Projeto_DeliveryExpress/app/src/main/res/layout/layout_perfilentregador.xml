@@ -1,0 +1,85 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secundaria2"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        >
+
+        <TextView
+            android:text="Perfil Entregador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffd648"
+            android:gravity="center_horizontal"
+            android:textColor="#010000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top|center"
+        android:weightSum="1"
+        android:paddingTop="20dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pesquisar Entregas"
+            android:id="@+id/btnPesqEntreg" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificar Minhas Entregas"
+            android:id="@+id/btnVerEntreg" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alterar Cadastro"
+            android:id="@+id/btnAlterarCad"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encerrar Conta"
+            android:id="@+id/btnEncerCont"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Veículo"
+            android:id="@+id/btnCadVei"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/btnEntregSair"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

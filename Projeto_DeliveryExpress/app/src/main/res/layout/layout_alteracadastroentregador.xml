@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secundaria2"
+    android:orientation="vertical"
+
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:text="Alterar Cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#010000"
+                android:background="#ffd648" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1"
+            android:paddingTop="20dp">
+
+            <TextView android:text="@string/NomeCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.76"
+                />
+
+            <EditText
+                android:id="@+id/editNome"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/EnderecoCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.58" />
+
+            <EditText
+                android:id="@+id/editEndereco"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/IdadeCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.66" />
+
+            <EditText
+                android:id="@+id/editIdade"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.13"
+                android:editable="false"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/SenhaCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.66" />
+
+            <EditText
+                android:id="@+id/editSenha"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/CNPJCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.66" />
+
+            <EditText
+                android:id="@+id/editCNPJ"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/CPFCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.82" />
+
+            <EditText
+                android:id="@+id/editCPF"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/EstadoCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.66" />
+
+            <Spinner
+                android:id="@+id/spinerEstado"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+
+            <TextView android:text="@string/CidadeCad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#010000"
+                android:paddingLeft="10dp"
+                android:layout_weight="0.66" />
+
+            <EditText
+                android:id="@+id/editCidade"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:gravity="top|center"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alterar"
+                android:id="@+id/btnAlterar" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voltar"
+                android:id="@+id/btnCadVolt" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Consultar"
+                android:id="@+id/btnConsultar" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

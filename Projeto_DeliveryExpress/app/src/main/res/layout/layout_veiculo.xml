@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secundaria2"
+    android:orientation="vertical"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        >
+
+        <TextView
+            android:text="@string/TituloVei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffd648"
+            android:gravity="center_horizontal"
+            android:textColor="#010000"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView android:text="@string/NumPlacaVei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#010000"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.66" />
+
+        <EditText
+            android:id="@+id/editPlaca"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <TextView android:text="@string/CorVei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#010000"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.77" />
+
+        <EditText
+            android:id="@+id/editCor"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <TextView android:text="@string/ModelVei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#010000"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.47" />
+
+        <EditText
+            android:id="@+id/editModelo"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <TextView android:text="@string/PesoVei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#010000"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.66" />
+
+        <EditText
+            android:id="@+id/editPeso"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <TextView android:text="@string/TipoVei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#010000"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.71" />
+
+        <EditText
+            android:id="@+id/editTipo"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:text="@string/Enviar"
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp" />
+
+        <Button
+            android:text="Voltar"
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

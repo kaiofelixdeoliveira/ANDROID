@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipoMerc">
+    <item>Caixa</item>
+    <item>Lata</item>
+    <item>Barril</item>
+    <item>Tambor</item>
+    <item>Rolo</item>
+    <item>Saco</item>
+    </string-array>
+
+</resources>

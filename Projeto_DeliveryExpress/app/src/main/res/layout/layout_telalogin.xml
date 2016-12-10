@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secundaria2"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="#ffd648"
+            android:text="@string/Titulo"
+            android:textColor="#010000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Entregador"
+                android:textColor="#010000"
+                android:paddingLeft="10dp" />
+
+            <RadioButton
+                android:id="@+id/rdbEntreg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/Cliente"
+                android:textColor="#010000" />
+
+            <RadioButton
+                android:id="@+id/rdbCli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Usuario"
+            android:textColor="#010000" />
+
+        <EditText
+            android:id="@+id/editUsuario"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/Senha"
+            android:textColor="#010000" />
+
+        <EditText
+            android:id="@+id/editSenha"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="horizontal"
+        android:paddingTop="40dp">
+
+        <Button
+            android:id="@+id/btnEnt"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingBottom="10dp"
+            android:text="@string/Entrar" />
+
+        <Button
+            android:id="@+id/btnCad"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingBottom="10dp"
+            android:text="@string/Cadastrar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sair"
+            android:id="@+id/btnLoginSair" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
